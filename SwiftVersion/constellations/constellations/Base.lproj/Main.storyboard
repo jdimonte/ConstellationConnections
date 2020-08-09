@@ -40,7 +40,7 @@
         <!--Home Page-->
         <scene sceneID="EVo-bd-lah">
             <objects>
-                <viewController title="Home Page" id="K2r-T8-SNF" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" title="Home Page" id="K2r-T8-SNF" customClass="LoginViewController" customModule="constellations" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HUm-Eb-Lym">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -94,6 +94,9 @@
                                 <state key="normal" title="Log In">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="49e-Tb-3d3" kind="show" id="cOf-LT-Mmf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pep-uL-hX0">
                                 <rect key="frame" x="108" y="727" width="198" height="30"/>
@@ -106,9 +109,6 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="dWl-WT-ZH8"/>
                     </view>
-                    <connections>
-                        <segue destination="49e-Tb-3d3" kind="push" id="anz-qf-Qkt"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WXy-2x-gVP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

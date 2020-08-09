@@ -2,7 +2,7 @@
 //  SecondViewController.swift
 //  constellations
 //
-//  Created by Karen Ly on 8/8/20.
+//  Created by Karen Ly on 8/9/20.
 //  Copyright © 2020 Karen Ly. All rights reserved.
 //
 
@@ -17,4 +17,3 @@ class SecondViewController: UIViewController {
 
 
 }
-
