@@ -1,16 +1,16 @@
-# first_app
+# Discovering Dimensions
 
-A new Flutter project.
+Mobile app designed to "create your constellation," which means to connect non native English speakers with English speakers or individuals interested in learning new languages and cultures around the world.
 
-## Getting Started
+This project was designed in xCode and protoyped in Figma for Spectra 4.0 by Jacqueline DiMonte, Karen Ly, Tina Ly, Ittiyanam Tomichan. 
 
-This project is a starting point for a Flutter application.
+## Purpose
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- To connect users to individuals around the globe based on interests, preferred language, and location
+- To promote cultural exchange in a time of travel restrictions and isolation
+- To promote education and connections among users worldwide about cultural differences
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Learn More Here: https://docs.google.com/presentation/d/1DS50Qoc0idBafhhKcw7-Cv9xnTD-ZST5clXxE2PnlD0/edit?usp=sharing 
+
+To test our app, please open the Swift Version folder in xCode.
