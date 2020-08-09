@@ -21,6 +21,8 @@
 		8CD8712124DFCC0E0038AD6C /* Conversations.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD8712024DFCC0E0038AD6C /* Conversations.storyboard */; };
 		8CD8712324DFCC1C0038AD6C /* Forum.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD8712224DFCC1C0038AD6C /* Forum.storyboard */; };
 		A668F95124E05F2B0076027E /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A668F95324E05F2B0076027E /* Profile.storyboard */; };
+		F8BC7C1C24E0706400075F76 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC7C1B24E0706400075F76 /* Map.swift */; };
+		F8BC7C1E24E07C0500075F76 /* Matching.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC7C1D24E07C0500075F76 /* Matching.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		8CD8712024DFCC0E0038AD6C /* Conversations.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Conversations.storyboard; sourceTree = "<group>"; };
 		8CD8712224DFCC1C0038AD6C /* Forum.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Forum.storyboard; sourceTree = "<group>"; };
 		A668F95224E05F2B0076027E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
+		F8BC7C1B24E0706400075F76 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		F8BC7C1D24E07C0500075F76 /* Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matching.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,11 +118,13 @@
 				8CD8711B24DFCB510038AD6C /* Storyboards */,
 				8CD870E824DFB50E0038AD6C /* AppDelegate.swift */,
 				8CD870EA24DFB50E0038AD6C /* SceneDelegate.swift */,
+				F8BC7C1B24E0706400075F76 /* Map.swift */,
 				8CD870EC24DFB50E0038AD6C /* FirstViewController.swift */,
 				8C5FF8BC24E062AD0071A099 /* SecondViewController.swift */,
 				8CD870F024DFB50E0038AD6C /* Main.storyboard */,
 				8C5FF8BA24E05BE20071A099 /* LoginViewController.swift */,
 				8CD870F324DFB50E0038AD6C /* Assets.xcassets */,
+				F8BC7C1D24E07C0500075F76 /* Matching.swift */,
 				8CD870F524DFB50E0038AD6C /* LaunchScreen.storyboard */,
 				8CD870F824DFB50E0038AD6C /* Info.plist */,
 			);
@@ -293,6 +299,8 @@
 				8CD870E924DFB50E0038AD6C /* AppDelegate.swift in Sources */,
 				8C5FF8BB24E05BE20071A099 /* LoginViewController.swift in Sources */,
 				8C5FF8BD24E062AD0071A099 /* SecondViewController.swift in Sources */,
+				F8BC7C1C24E0706400075F76 /* Map.swift in Sources */,
+				F8BC7C1E24E07C0500075F76 /* Matching.swift in Sources */,
 				8CD870EB24DFB50E0038AD6C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
