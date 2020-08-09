@@ -16,10 +16,10 @@
 		8CD870F724DFB50E0038AD6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD870F524DFB50E0038AD6C /* LaunchScreen.storyboard */; };
 		8CD8710224DFB50F0038AD6C /* constellationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8710124DFB50F0038AD6C /* constellationsTests.swift */; };
 		8CD8710D24DFB50F0038AD6C /* constellationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8710C24DFB50F0038AD6C /* constellationsUITests.swift */; };
-		8CD8711D24DFCB8A0038AD6C /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD8711C24DFCB8A0038AD6C /* Profile.storyboard */; };
 		8CD8711F24DFCBFF0038AD6C /* Matching Station.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD8711E24DFCBFF0038AD6C /* Matching Station.storyboard */; };
 		8CD8712124DFCC0E0038AD6C /* Conversations.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD8712024DFCC0E0038AD6C /* Conversations.storyboard */; };
 		8CD8712324DFCC1C0038AD6C /* Forum.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD8712224DFCC1C0038AD6C /* Forum.storyboard */; };
+		A668F95124E05F2B0076027E /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A668F95324E05F2B0076027E /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +55,10 @@
 		8CD8710824DFB50F0038AD6C /* constellationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = constellationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD8710C24DFB50F0038AD6C /* constellationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constellationsUITests.swift; sourceTree = "<group>"; };
 		8CD8710E24DFB50F0038AD6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8CD8711C24DFCB8A0038AD6C /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		8CD8711E24DFCBFF0038AD6C /* Matching Station.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Matching Station.storyboard"; sourceTree = "<group>"; };
 		8CD8712024DFCC0E0038AD6C /* Conversations.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Conversations.storyboard; sourceTree = "<group>"; };
 		8CD8712224DFCC1C0038AD6C /* Forum.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Forum.storyboard; sourceTree = "<group>"; };
+		A668F95224E05F2B0076027E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +143,7 @@
 		8CD8711B24DFCB510038AD6C /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				8CD8711C24DFCB8A0038AD6C /* Profile.storyboard */,
+				A668F95324E05F2B0076027E /* Profile.storyboard */,
 				8CD8711E24DFCBFF0038AD6C /* Matching Station.storyboard */,
 				8CD8712024DFCC0E0038AD6C /* Conversations.storyboard */,
 				8CD8712224DFCC1C0038AD6C /* Forum.storyboard */,
@@ -257,7 +257,7 @@
 			files = (
 				8CD870F724DFB50E0038AD6C /* LaunchScreen.storyboard in Resources */,
 				8CD870F424DFB50E0038AD6C /* Assets.xcassets in Resources */,
-				8CD8711D24DFCB8A0038AD6C /* Profile.storyboard in Resources */,
+				A668F95124E05F2B0076027E /* Profile.storyboard in Resources */,
 				8CD8711F24DFCBFF0038AD6C /* Matching Station.storyboard in Resources */,
 				8CD870F224DFB50E0038AD6C /* Main.storyboard in Resources */,
 				8CD8712324DFCC1C0038AD6C /* Forum.storyboard in Resources */,
@@ -339,6 +339,14 @@
 				8CD870F624DFB50E0038AD6C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A668F95324E05F2B0076027E /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A668F95224E05F2B0076027E /* Base */,
+			);
+			name = Profile.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
