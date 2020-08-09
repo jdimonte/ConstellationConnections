@@ -7,10 +7,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Discover-->
         <scene sceneID="0WN-tq-aGv">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="D4K-gN-vkc" sceneMemberID="firstResponder"/>
                 <viewController id="zQ8-Fe-tWP" customClass="SecondViewController" customModule="constellations" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DQ4-41-RQ1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -37,11 +36,15 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="M5Z-uq-Amc"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="DkX-dB-oHI"/>
+                    <tabBarItem key="tabBarItem" title="Discover" image="person.2" catalog="system" id="DkX-dB-oHI"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D4K-gN-vkc" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="61" y="740"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="person.2" catalog="system" width="128" height="81"/>
+    </resources>
 </document>

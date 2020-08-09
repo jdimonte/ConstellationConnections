@@ -23,11 +23,11 @@
             </objects>
             <point key="canvasLocation" x="2268.1159420289855" y="0.0"/>
         </scene>
-        <!--Item-->
+        <!--Forum-->
         <scene sceneID="FcV-cN-khG">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UiI-4p-Xa1" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="tuQ-gB-H9G"/>
+                    <tabBarItem key="tabBarItem" title="Forum" image="square.and.pencil" catalog="system" id="tuQ-gB-H9G"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MeQ-GV-B7N">
@@ -44,4 +44,7 @@
             <point key="canvasLocation" x="1357.9710144927537" y="0.0"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="square.and.pencil" catalog="system" width="128" height="118"/>
+    </resources>
 </document>

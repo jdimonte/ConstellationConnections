@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Chat-->
         <scene sceneID="HTm-Ja-E1G">
             <objects>
                 <viewController id="gEw-VQ-hRy" sceneMemberID="viewController">
@@ -17,7 +17,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="WMg-58-Gho"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="lOy-B8-nma"/>
+                    <tabBarItem key="tabBarItem" title="Chat" image="message" catalog="system" id="lOy-B8-nma"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ir3-SE-XTM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -25,4 +25,7 @@
             <point key="canvasLocation" x="865" y="740"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="message" catalog="system" width="128" height="113"/>
+    </resources>
 </document>

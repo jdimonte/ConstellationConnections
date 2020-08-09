@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Profile-->
         <scene sceneID="vgm-v7-ek5">
             <objects>
                 <viewController id="SIW-Ch-FCa" customClass="FirstViewController" customModule="constellations" customModuleProvider="target" sceneMemberID="viewController">
@@ -15,17 +15,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Constellations" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="aQW-bg-97p">
-                                <rect key="frame" x="97" y="426.5" width="220" height="43"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by FirstViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RYx-lb-4yw">
-                                <rect key="frame" x="110" y="477.5" width="194.5" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PNG image-08FB157294EB-1" translatesAutoresizingMaskIntoConstraints="NO" id="mTx-98-Nkn">
                                 <rect key="frame" x="-21" y="-11" width="466" height="824"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -37,25 +26,30 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="first name" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BRk-xt-o3n">
+                                <rect key="frame" x="33" y="110" width="193" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="PingFangTC-Light" family="PingFang TC" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="RYx-lb-4yw" firstAttribute="centerX" secondItem="aQW-bg-97p" secondAttribute="centerX" id="Uvc-oY-H0R"/>
-                            <constraint firstAttribute="centerY" secondItem="aQW-bg-97p" secondAttribute="centerY" id="WhL-oI-bk0"/>
-                            <constraint firstAttribute="centerX" secondItem="aQW-bg-97p" secondAttribute="centerX" id="Zuu-yd-0vP"/>
-                            <constraint firstItem="RYx-lb-4yw" firstAttribute="top" secondItem="aQW-bg-97p" secondAttribute="bottom" constant="8" symbolic="YES" id="mVj-8k-t7u"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="k5U-2b-jqQ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="s9p-mz-jMn"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person.circle.fill" catalog="system" id="s9p-mz-jMn">
+                        <color key="badgeColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T7y-tv-NhP" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-742" y="740"/>
+            <point key="canvasLocation" x="-742.02898550724649" y="739.95535714285711"/>
         </scene>
     </scenes>
     <resources>
         <image name="PNG image-08FB157294EB-1" width="750" height="1334"/>
+        <image name="person.circle.fill" catalog="system" width="128" height="121"/>
     </resources>
 </document>
