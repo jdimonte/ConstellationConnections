@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Second View Controller-->
+        <!--Discover-->
         <scene sceneID="0WN-tq-aGv">
             <objects>
                 <viewController id="zQ8-Fe-tWP" customClass="SecondViewController" customModule="constellations" customModuleProvider="target" sceneMemberID="viewController">
@@ -92,17 +92,6 @@ to find someone to connect with!</string>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NaT-Bo-Kzi">
-                                <rect key="frame" x="0.0" y="764" width="417" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Profile" id="cSX-69-K6v" userLabel="Profile"/>
-                                    <tabBarItem title="Discover" id="suw-zD-0Je" userLabel="Discover"/>
-                                    <tabBarItem title="Conversations" id="yDB-OY-sJQ" userLabel="Conversations"/>
-                                    <tabBarItem title="Forum" id="U4c-EA-KKq" userLabel="Forum"/>
-                                </items>
-                            </tabBar>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v0l-yt-3th">
                                 <rect key="frame" x="20" y="604" width="168" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -173,6 +162,7 @@ to find someone to connect with!</string>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="M5Z-uq-Amc"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Discover" image="person.2.fill" catalog="system" id="K36-tO-iMq"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D4K-gN-vkc" sceneMemberID="firstResponder"/>
@@ -182,6 +172,7 @@ to find someone to connect with!</string>
     </scenes>
     <resources>
         <image name="background" width="750" height="1334"/>
+        <image name="person.2.fill" catalog="system" width="128" height="80"/>
         <image name="redpin" width="183" height="296"/>
         <image name="webworld" width="2100" height="1313"/>
     </resources>
