@@ -1,0 +1,18 @@
+
+/* Class = "UITextField"; placeholder = "first name"; ObjectID = "BRk-xt-o3n"; */
+"BRk-xt-o3n.placeholder" = "first name";
+
+/* Class = "UILabel"; text = "Preferred Language"; ObjectID = "OLE-rk-GtQ"; */
+"OLE-rk-GtQ.text" = "Preferred Language";
+
+/* Class = "UILabel"; text = "Food"; ObjectID = "YHI-kT-ObO"; */
+"YHI-kT-ObO.text" = "Food";
+
+/* Class = "UILabel"; text = "Food"; ObjectID = "guJ-ql-vfL"; */
+"guJ-ql-vfL.text" = "Food";
+
+/* Class = "UITextField"; placeholder = "last name"; ObjectID = "lxA-aj-QJO"; */
+"lxA-aj-QJO.placeholder" = "last name";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "s9p-mz-jMn"; */
+"s9p-mz-jMn.title" = "Profile";
