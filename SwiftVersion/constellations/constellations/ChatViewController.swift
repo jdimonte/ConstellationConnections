@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import MessageKit
 
 struct Sender: SenderType {
     var senderId: String
