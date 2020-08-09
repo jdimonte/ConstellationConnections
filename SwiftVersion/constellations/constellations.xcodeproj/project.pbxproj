@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8C5FF8BB24E05BE20071A099 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5FF8BA24E05BE20071A099 /* LoginViewController.swift */; };
 		8C5FF8BD24E062AD0071A099 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5FF8BC24E062AD0071A099 /* SecondViewController.swift */; };
+		8C5FF8C124E06B5D0071A099 /* Forum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5FF8C024E06B5D0071A099 /* Forum.swift */; };
 		8CD870E924DFB50E0038AD6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD870E824DFB50E0038AD6C /* AppDelegate.swift */; };
 		8CD870EB24DFB50E0038AD6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD870EA24DFB50E0038AD6C /* SceneDelegate.swift */; };
 		8CD870ED24DFB50E0038AD6C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD870EC24DFB50E0038AD6C /* FirstViewController.swift */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		8C5FF8BA24E05BE20071A099 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		8C5FF8BC24E062AD0071A099 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		8C5FF8C024E06B5D0071A099 /* Forum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forum.swift; sourceTree = "<group>"; };
 		8CD870E524DFB50E0038AD6C /* constellations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = constellations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD870E824DFB50E0038AD6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CD870EA24DFB50E0038AD6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				8CD8711E24DFCBFF0038AD6C /* Matching Station.storyboard */,
 				8CD8712024DFCC0E0038AD6C /* Conversations.storyboard */,
 				8CD8712224DFCC1C0038AD6C /* Forum.storyboard */,
+				8C5FF8C024E06B5D0071A099 /* Forum.swift */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				8C5FF8BB24E05BE20071A099 /* LoginViewController.swift in Sources */,
 				8C5FF8BD24E062AD0071A099 /* SecondViewController.swift in Sources */,
 				8CD870EB24DFB50E0038AD6C /* SceneDelegate.swift in Sources */,
+				8C5FF8C124E06B5D0071A099 /* Forum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
